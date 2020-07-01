@@ -8,6 +8,8 @@ color = gets.chop
 
 if color == "blue" or color == "black"
     puts "Wow! My favorite color is #{color} also!"
+elsif color == "red"
+    puts "Not bad, son"
 else
     puts "Lol, #{color} sounds ugly"
 end
