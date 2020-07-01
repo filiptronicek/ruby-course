@@ -1,7 +1,7 @@
 # Lesson 3: Prompt for Favorite Color
 
 puts "What is your favorite color?"
-color = gets.chop
+color = gets.chop.downcase
 # puts "Wow! My favorite color is #{color} also!"
 
 # Lesson 4: Using an If Statement
